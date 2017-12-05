@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:WSDLSchemaConnection xmi:id="_k-9mkNmpEeeKu4LAcKPFHQ" name="repository.metadataWSDLSchema" dataPackage="_k--NqNmpEeeKu4LAcKPFHQ" ContextMode="true" ContextId="_iXFlYNmpEeeKu4LAcKPFHQ" contextName="Default" WSDL="context.QUALAnalyte_WSDL" methodName="RunActionDirect(parameters):noType" timeOut="20" isInputModel="false" serverNameSpace="http://www.starlims.com/webservices/" serverName="GenericServices" portNameSpace="http://www.starlims.com/webservices/" portName="GenericServicesSoap">
+    <parameterValue xmi:id="_zaxv4NmpEeeKu4LAcKPFHQ" Element="parameters"/>
+    <parameterValue xmi:id="_zaxv4dmpEeeKu4LAcKPFHQ" Element="parameters.UserName"/>
+    <parameterValue xmi:id="_zaxv4tmpEeeKu4LAcKPFHQ" ParameterInfo="parameters" ParameterInfoParent=""/>
+    <parameterValue xmi:id="_zaxv49mpEeeKu4LAcKPFHQ" ParameterInfo="actionID" ParameterInfoParent="parameters"/>
+    <parameterValue xmi:id="_zaxv5NmpEeeKu4LAcKPFHQ" ParameterInfo="UserName" ParameterInfoParent="parameters"/>
+    <parameterValue xmi:id="_zaxv5dmpEeeKu4LAcKPFHQ" ParameterInfo="Password" ParameterInfoParent="parameters"/>
+    <parameterValue xmi:id="_zaxv5tmpEeeKu4LAcKPFHQ" Column="SQLString"/>
+    <outputParameter xmi:id="_zaxv59mpEeeKu4LAcKPFHQ" Element="parameters"/>
+    <outputParameter xmi:id="_zaxv6NmpEeeKu4LAcKPFHQ" ParameterInfo="parameters" ParameterInfoParent=""/>
+    <outputParameter xmi:id="_zaxv6dmpEeeKu4LAcKPFHQ" ParameterInfo="RunActionDirectResult" ParameterInfoParent="parameters"/>
+  </TalendMetadata:WSDLSchemaConnection>
+  <TalendMetadata:GenericPackage xmi:id="_k--NqNmpEeeKu4LAcKPFHQ" name="repository.metadataWSDLSchema" dataManager="_k-9mkNmpEeeKu4LAcKPFHQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_k--NqdmpEeeKu4LAcKPFHQ" id="_CLoxkNmpEeeKu4LAcKPFHQ" label="Output">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_yQypANmpEeeKu4LAcKPFHQ" name="sql" label="sql" talendType="id_String"/>
+    </ownedElement>
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_k--NqtmpEeeKu4LAcKPFHQ" id="_GUO-oNmpEeeKu4LAcKPFHQ" label="Input">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_pT-fANmpEeeKu4LAcKPFHQ" name="SQLString" label="SQLString" talendType="id_String"/>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>
